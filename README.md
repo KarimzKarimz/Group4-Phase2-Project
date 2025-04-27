@@ -1,7 +1,7 @@
 # Group4-Phase2-Project
 ## Data Insights for building a new movie studio
 ### Overview
-- The company is determine dto venture into movie production industry based majorly on the succes of otehr big studios. To guide the company we'll do Explanatory Data Analysis, genre trends using datasets from Box Office Mojo, IMDB, and other sources. 
+- The company is determined to venture into movie production industry based majorly on the succes of other big studios. To guide the company we'll do Explanatory Data Analysis, genre trends using datasets from Box Office Mojo, IMDB, and other sources. 
 - The goal is to determine what type of movies best perform commercially and critically translate the insights into actionable recommendations.
 ## Business Understanding
 - Despite the big compoanies still greatly investing in the movie industry, our company aims to launch a new movie studion and grab part of the growing market even though the company lacks experience to make informed decision on what movies the market needs produced.
