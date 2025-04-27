@@ -172,3 +172,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+.crispdm notes 24.04.ipynb
+.ZippedData
