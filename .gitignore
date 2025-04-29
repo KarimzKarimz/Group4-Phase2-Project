@@ -175,9 +175,10 @@ cython_debug/
 
 .crispdm notes 24.04.ipynb
 zippedData/cleaned_dataset_movie_budget.csv
-zippedData/cleaned_dataset_film_df.csv
+zippedData/cleaned_dataset_film_df2.csv
 zippedData/cleaned_dataset_box_office.csv
 zippedData/im.db
-zippedData/all_combined.csv
+zippedData/cleaned_dataset_film_df1.csv
 cleaned_dataset.csv
+temporary.ipynb
 
