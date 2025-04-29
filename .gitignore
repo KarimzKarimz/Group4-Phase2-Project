@@ -177,6 +177,7 @@ cython_debug/
 zippedData/cleaned_dataset_movie_budget.csv
 zippedData/cleaned_dataset_film_df.csv
 zippedData/cleaned_dataset_box_office.csv
-Group4-Phase2-Project/zippedData/im.db
-Group4-Phase2-Project/zippedData/all_combined.csv
+zippedData/im.db
+zippedData/all_combined.csv
+cleaned_dataset.csv
 
