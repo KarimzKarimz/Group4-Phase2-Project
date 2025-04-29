@@ -48,11 +48,9 @@ These data points are key to understanding what makes a movie successful both cr
 
 - <img src="https://github.com/user-attachments/assets/75202e5f-41fc-417c-976f-d09ef7b4a5e2" height="250" />
 
-### 📅 Visualization 3: Revenue by Release Month
+### 📅 Average Box Office Revenue Over Time
 
 - <img src="https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f" height="250" />
-
-
 
 
 ---
@@ -67,8 +65,6 @@ These data points are key to understanding what makes a movie successful both cr
  -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
     
 - **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-  
----
 
 ---
 
@@ -83,8 +79,6 @@ These data points are key to understanding what makes a movie successful both cr
  -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
     
 - **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-  
----
 
 ---
 
@@ -116,7 +110,7 @@ These insights form a strategic foundation for the company’s new studio to foc
 ## 📂 Folder Structure
 
 
-Group4-Phase2-Project/
+/Group4-Phase2-Project
 │
 ├── zippedData/
 │   ├── im.db.zip
