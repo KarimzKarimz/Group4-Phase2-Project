@@ -46,7 +46,7 @@ These data points are key to understanding what makes a movie successful both cr
 
 ### 🧩 Top 10 Movies by Domestic Gross Revenue
 
-- <img src="https://github.com/user-attachments/assets/75202e5f-41fc-417c-976f-d09ef7b4a5e2" height="250" />
+- <img src="https://github.com/user-attachments/assets/75202e5f-41fc-417c-976f-d09ef7b4a5e2" height="230" />
 
 ### 📅 Average Box Office Revenue Over Time
 
