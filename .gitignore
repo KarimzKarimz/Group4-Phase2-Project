@@ -174,5 +174,7 @@ cython_debug/
 .pypirc
 
 .crispdm notes 24.04.ipynb
-zippedData/
+zippedData/cleaned_dataset_movie_budget.csv
+zippedData/cleaned_dataset_film_df.csv
+zippedData/cleaned_dataset_box_office.csv
 
