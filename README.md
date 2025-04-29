@@ -50,10 +50,10 @@ These data points are key to understanding what makes a movie successful both cr
 
 ### 📅 Visualization 3: Revenue by Release Month
 
-- <img src=" https://github.com/user-attachments/assets/e8b26a05-4d4b-4d13-b6da-47645e6b593e" height="250" />
+- <img src="https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f" height="250" />
 
 
----
+
 
 ---
 ### Business Objective 1 Finding
