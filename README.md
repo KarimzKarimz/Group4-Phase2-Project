@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f)# 🎬 Data-Driven Strategy for Launching a Movie Studio
+# 🎬 Data-Driven Strategy for Launching a Movie Studio
 
 ## 📝 Overview
 This project aims to support the launch of a new movie studio by identifying what types of films perform best at the box office. By analyzing historical movie data, we uncover trends in genres, budgets, ratings, and other attributes that influence commercial success. The ultimate goal is to provide strategic, data-backed recommendations to guide content creation and production investments.
