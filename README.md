@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f)# 🎬 Data-Driven Strategy for Launching a Movie Studio
+# 🎬 Data-Driven Strategy for Launching a Movie Studio
 
 ## 📝 Overview
 This project aims to support the launch of a new movie studio by identifying what types of films perform best at the box office. By analyzing historical movie data, we uncover trends in genres, budgets, ratings, and other attributes that influence commercial success. The ultimate goal is to provide strategic, data-backed recommendations to guide content creation and production investments.
@@ -46,14 +46,12 @@ These data points are key to understanding what makes a movie successful both cr
 
 ### 🧩 Top 10 Movies by Domestic Gross Revenue
 
-- <img src="https://github.com/user-attachments/assets/75202e5f-41fc-417c-976f-d09ef7b4a5e2" height="250" />
+- <img src="https://github.com/user-attachments/assets/75202e5f-41fc-417c-976f-d09ef7b4a5e2" height="230" />
 
-### 📅 Visualization 3: Revenue by Release Month
+### 📅 Average Box Office Revenue Over Time
 
-- <img src=" https://github.com/user-attachments/assets/e8b26a05-4d4b-4d13-b6da-47645e6b593e" height="250" />
+- <img src="https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f" height="250" />
 
-
----
 
 ---
 ### Business Objective 1 Finding
@@ -67,8 +65,6 @@ These data points are key to understanding what makes a movie successful both cr
  -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
     
 - **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-  
----
 
 ---
 
@@ -83,8 +79,6 @@ These data points are key to understanding what makes a movie successful both cr
  -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
     
 - **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-  
----
 
 ---
 
@@ -116,7 +110,7 @@ These insights form a strategic foundation for the company’s new studio to foc
 ## 📂 Folder Structure
 
 
-Group4-Phase2-Project/
+/Group4-Phase2-Project
 │
 ├── zippedData/
 │   ├── im.db.zip
