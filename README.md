@@ -110,13 +110,13 @@ These insights form a strategic foundation for the company’s new studio to foc
 ## 📂 Folder Structure
 
 
-/Group4-Phase2-Project
+```/Group4-Phase2-Project
 │
 ├── zippedData/
 │   ├── im.db.zip
 │   └── bom.movie_gross.csv.gz
 │
-```├── /
+├── /
 │   └── movie_analysis.ipynb
 │
 ├── visualizations/
