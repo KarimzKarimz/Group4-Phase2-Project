@@ -172,16 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-
-.crispdm notes 24.04.ipynb
-zippedData/im.db.zip
-zippedData/rt.movie_info.tsv.gz
-zippedData/bom.movie_gross.csv.gz
-zippedData/rt.reviews.tsv.gz
-zippedData/rt.reviews.tsv
-zippedData/rt.movie_info.tsv
-zippedData/tn.movie_budget.csv.gz
-zippedData/tmdb.movie.csv.gz
-
-
-
+zippedData/cleaned_dataset_film_df.csv
+zippedData/im.db
