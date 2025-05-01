@@ -84,7 +84,30 @@ Conducted using Python in [`index.ipynb`](./index.ipynb)
 
 ## 📂 Project Structure
 
-<pre> 📂 Group4-Phase2-Project/ ├── 📁 zippedData/ # Raw and cleaned data files │ ├── im.db.zip # Zipped SQLite database (im.db too large for GitHub) │ ├── bom.movie_gross.csv.gz # Box Office Mojo (domestic gross) │ ├── tn.movie_budgets.csv # The Numbers (movie budget data) │ ├── tmdb.movies.csv # TMDb movie metadata │ ├── rt.movie_info.tsv # Rotten Tomatoes metadata │ ├── rt.reviews.tsv # Rotten Tomatoes critic reviews │ ├── all_combined.csv # Combined raw dataset before cleaning │ ├── cleaned_box_office.csv # Cleaned box office dataset │ ├── cleaned_movie_budgets.csv # Cleaned budget dataset │ ├── ❌ cleaned_dataset_film_df.csv # Too large to upload – excluded via .gitignore │ └── ✅ cleaned_dataset_film_df.tar.gz # Compressed cleaned dataset (included for GitHub) ├── 📘 index.ipynb # Main analysis notebook: │ ├─ Data Understanding │ ├─ Data Cleaning │ ├─ Exploratory Data Analysis (EDA) │ ├─ Visualizations │ ├─ Summary Statistics │ └─ Hypothesis Testing ├── 📊 movie_insights_presentation.pdf # Final non-technical presentation (executive-ready) ├── 📄 .gitignore # Files excluded from Git │ ├─ cleaned_dataset_film_df.csv │ └─ im.db └── 📝 README.md # Project overview, structure, insights, and documentation </pre>
+Group4-Phase2-Project/
+├── 📁 zippedData/                   # Raw and cleaned data files
+│   ├── im.db.zip                    # Zipped SQLite database (im.db too large for GitHub)
+│   ├── bom.movie_gross.csv.gz       # Box Office Mojo (domestic gross)
+│   ├── tn.movie_budgets.csv         # The Numbers (movie budget data)
+│   ├── tmdb.movies.csv              # TMDb movie metadata
+│   ├── rt.movie_info.tsv            # Rotten Tomatoes metadata
+│   ├── rt.reviews.tsv               # Rotten Tomatoes critic reviews
+│   ├── all_combined.csv             # Combined raw dataset before cleaning
+│   ├── cleaned_box_office.csv       # Cleaned box office dataset
+│   ├── cleaned_movie_budgets.csv    # Cleaned budget dataset
+│   └──  cleaned_dataset_film_df.csv   # Too large to upload – available in the .gitignore
+├── 📘 index.ipynb                    # Main analysis notebook:
+│   ├─ Data Understanding
+│   ├─ Data Cleaning
+│   ├─ Exploratory Data Analysis (EDA)
+│   ├─ Visualizations
+│   ├─ Summary Statistics
+│   └─ Hypothesis Testing
+├── 📊 movie_insights_presentation.pdf  # Final non-technical presentation (executive-ready)
+├── 📄 .gitignore                     # Files excluded from Git
+│   ├─ cleaned_dataset_film_df.csv
+│   └─ im.db
+└── 📝 README.md                      # Project overview, structure, insights, and documentation
 
 
 ---
