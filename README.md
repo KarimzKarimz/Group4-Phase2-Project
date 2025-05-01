@@ -1,43 +1,48 @@
-# 🎬 Data-Driven Strategy for Launching a Movie Studio
+# 🎬 ****BOX OFFICE GOLD**.
+ Data-Driven Strategy for Launching a Movie Studio
 
-## 📝 Overview
-This project aims to support the launch of a new movie studio by identifying what types of films perform best at the box office. By analyzing historical movie data, we uncover trends in genres, budgets, ratings, and other attributes that influence commercial success. The ultimate goal is to provide strategic, data-backed recommendations to guide content creation and production investments.
+## 📌 Project Overview
 
----
-
-## 💼 Business Understanding
-
-### 👥 Stakeholder
-The primary stakeholder is the executive team of the company's new movie studio. They need insights into the film industry to make confident decisions on what type of movies to produce.
-
-### ❓ Key Business Questions
-- What genres perform best at the box office?
-- Is there an ideal budget range that maximizes profitability?
-- How do release timing and other attributes like runtime and ratings impact success?
-- What are common characteristics of top-performing movies?
+This project analyzes historical movie industry data to uncover trends that influence box office success. The insights are aimed at helping a new movie studio decide what types of films to produce, how much to invest, and when to release them.
 
 ---
 
-## 📊 Data Understanding and Analysis
+## 💼 Business Context
 
-### 📁 Source of Data
-- **im.db.zip**: A zipped SQLite database containing movie metadata and ratings.
-  - `movie_basics`: Contains core movie details such as title, genre, runtime, etc.
-  - `movie_ratings`: Contains user and critic rating data.
-- **bom.movie_gross.csv.gz**: A compressed CSV file with box office gross data for various films.
+### 🎯 Business Problem
+A new studio needs guidance on producing profitable films using past industry data.
 
-### 📄 Description of Data
-The dataset includes:
-- Movie titles, release years, and genres  
-- Runtime and MPAA ratings  
-- Viewer ratings and number of votes  
-- Domestic and international box office gross  
-
-These data points are key to understanding what makes a movie successful both critically and financially.
+### 👤 Stakeholder
+The executive team (non-technical) of the new movie studio.
 
 ---
 
-## 📈 Data Visualizations
+## ❓ Key Business Questions
+
+1. What genres perform best at the box office?
+2. Is there an ideal budget range for profitability?
+3. Does release timing affect success?
+4. What other features impact box office revenue?
+
+---
+
+## 📁 Data Sources
+
+| Source                     | Description                                |
+|----------------------------|--------------------------------------------|
+| `im.db`                    | SQLite DB with movie metadata and ratings  |
+| `bom.movie_gross.csv.gz`  | Box Office Mojo dataset (gross revenue)    |
+| `tn.movie_budget.csv.gz`  | movie budgets dataset    |
+| `cleaned dataset` | Cleaned Dataset of ( film_df,  movie_budget,  box_office). |
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+Conducted using Python in [`index.ipynb`](./index.ipynb)
+
+
+### 📈 Data Visualizations
 
 
 ### 🎨 What are the most common genres produced over time
@@ -52,80 +57,119 @@ These data points are key to understanding what makes a movie successful both cr
 
 - <img src="https://github.com/user-attachments/assets/964d7f62-89ff-44bb-a131-e731d5180a8f" height="250" />
 
-
----
-### Business Objective 1 Finding
-
-- **Thriller** was the most produced genre, peaking in 2018 before dropping sharply in 2019.
-- A slight rise in Western movies was seen in 2012 and 2018 but wasn't maintained.
-
-
- ### 🎯 **Recommendations**
-
- -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
-    
-- **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-
 ---
 
-### Business Objective 2  Finding
+## 🔍 Key Insights
 
-- **Thriller** was the most produced genre, peaking in 2018 before dropping sharply in 2019.
-- A slight rise in Western movies was seen in 2012 and 2018 but wasn't maintained.
+### Insight 1: Genre Performance
+- Action and Adventure dominate in average revenue.
+- Comedy and Drama are most common but more variable.
 
+### Insight 2: Budget Sweet Spot
+- Mid-range budgets ($50M–$100M) perform best overall.
 
- ### 🎯 **Recommendations**
-
- -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
-    
-- **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
+### Insight 3: Seasonal Release Impact
+- June–July and December releases are most profitable.
 
 ---
 
-### Business Objective 3 Finding
+## 🎯 Recommendations
 
-- **Thriller** was the most produced genre, peaking in 2018 before dropping sharply in 2019.
-- A slight rise in Western movies was seen in 2012 and 2018 but wasn't maintained.
-
-
- ### 🎯 **Recommendations**
-
- -  **Niche Opportunities**: Explore ways to grow interest in less popular genres like Sport and Western through innovation or targeted marketing.
-    
-- **Market Monitoring**: Track shifting audience interests, especially after the 2019 drop, to adjust production strategies.
-  
----
-
-## ✅ Conclusion
-
-### 🔍 Summary of Findings
-- **Action Genre Leads in Revenue**: Action films consistently generate the highest average box office revenue.
-- **Mid-Range Budgets Perform Best**: Films with moderate budgets tend to yield higher returns compared to low- or high-budget films.
-- **Summer Releases Dominate**: Movies released in June–July see a noticeable spike in revenue, indicating strong seasonal influence.
-
-These insights form a strategic foundation for the company’s new studio to focus on genres and production strategies with high commercial potential.
+- Focus on Action/Adventure genres with wide appeal.
+- Invest in mid-range budget films.
+- Avoid January/September releases for major titles.
+- Track changing trends using dashboards.
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
+
+Group4-Phase2-Project/ │ ├── zippedData/ # Raw and cleaned data files │ ├── im.db.zip # Zipped SQLite database (im.db too large for GitHub) │ ├── bom.movie_gross.csv.gz # Box Office Mojo (domestic gross) │ ├── tn.movie_budgets.csv # The Numbers (movie budget data) │ ├── tmdb.movies.csv # TMDb movie metadata │ ├── rt.movie_info.tsv # Rotten Tomatoes metadata │ ├── rt.reviews.tsv # Rotten Tomatoes critic reviews │ ├── all_combined.csv # Combined raw dataset before cleaning │ ├── cleaned_box_office.csv # Cleaned box office dataset │ ├── cleaned_movie_budgets.csv # Cleaned budget dataset │ ├── cleaned_dataset_film_df.csv # ❌ Too large to upload – excluded via .gitignore │ └── cleaned_dataset_film_df.tar.gz # ✅ Compressed cleaned dataset (included for GitHub) │ ├── index.ipynb # 📘 Main analysis notebook: │ ├─ Data Understanding │ ├─ Data Cleaning │ ├─ Exploratory Data Analysis (EDA) │ ├─ Visualizations │ ├─ Summary Statistics │ └─ Hypothesis Testing │ ├── movie_insights_presentation.pdf # 📊 Final non-technical presentation (executive-ready) │ ├── .gitignore # Files excluded from Git │ ↳ cleaned_dataset_film_df.csv │ ↳ im.db │ └── README.md # 📄 Project overview, structure, insights, and documentation
 
 
-```/Group4-Phase2-Project
-│
-├── zippedData/
-│   ├── im.db.zip
-│   └── bom.movie_gross.csv.gz
-│
-├── /
-│   └── movie_analysis.ipynb
-│
-├── visualizations/
-│   └── genre_revenue_chart.png
-│   └── budget_vs_revenue_plot.png
-│   └── monthly_trends.png
-│
-├── reports/
-│   └── presentation.pdf
-│   └── final_report.docx
-│
-└── README.md
+
+
+
+---
+
+## 🛠️ Workflow & Team Responsibilities
+
+| Stage                | Team Member(s)                                         |
+|----------------------|--------------------------------------------------------|
+| 📂 Data Cleaning      | **Mohammed Abdi**                                      |
+| 📊 Exploratory Data Analysis (EDA) | **Faith**, **Ronny Muthomi**                          |
+| 📐 Statistical Summary | **Emmanuel Yegon**                                   |
+| 🔬 Hypothesis Testing | **Mercy Mercy**, **Austin Mwasi**                     |
+| 📑 Non-Technical Presentation | *Entire Team*                                |
+
+---
+
+## ✅ GitHub Limitations
+
+- `cleaned_dataset_film_df.csv` and `im.db` were **too large to upload** (>100 MB).
+- We included:
+  - `cleaned_dataset_film_df.tar.gz` (compressed)
+  - `im.db.zip` (compressed)
+- These are excluded from version control in `.gitignore`.
+
+---
+
+## 🧩 Visualization & Presentation
+
+All visuals used in the executive summary were generated in `index.ipynb` and exported to the presentation PDF.
+
+---
+
+## 📌 Trello Board (Project Management)
+
+> [https://trello.com/b/ILhuizXU/group-4-phase-2-project]  
+> _(Use Trello to track tasks, deadlines, and project milestones.)_
+
+---
+
+Would you like me to now merge this into your actual `README.md` file and return a finalized version ready for GitHub and submission?
+
+
+
+
+
+
+
+---
+
+## 🧠 Tools Used
+
+- Python: pandas, matplotlib, seaborn
+- SQLite & SQLAlchemy
+- Jupyter Notebook
+- Tableau (dashboard coming soon)
+- Git & GitHub
+
+---
+
+## 📤 Deliverables
+
+| Deliverable                | Status          |
+|----------------------------|------------------|
+| Cleaned Dataset            | ✅ Compressed    |
+| Jupyter Notebook (EDA)     | ✅ Complete      |
+| Data Visualizations        | ✅ Embedded      |
+| Tableau Dashboard          | 🔄 In progress   |
+| Non-Technical PDF Report   | 🔄 In progress   |
+
+---
+
+## 👥 Contributors
+- **Faith Karimi** — faith.karimi@student.moringaschool.com * Team leader.
+- **Emmanuel Yegon** — emmanuel.yegon@student.moringaschool.com  
+- **Mercy Mercy** — mercy.mercy1@student.moringaschool.com  
+- **Austin Mwasi** — austin.mwasi@student.moringaschool.com  
+- **Mohammed Abdi** — mohammed.abdi1@student.moringaschool.com  
+- **Ronny Muthomi** — ronny.muthomi@student.moringaschool.com  
+
+---
+
+## 📬 Contact
+
+> Questions? Reach out on [GitHub](https://github.com/KarimzKarimz) or email a team member.
+
