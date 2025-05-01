@@ -1,4 +1,4 @@
-# 🎬 ****BOX OFFICE GOLD**.
+# 🎬 **BOX OFFICE GOLD**.
  Data-Driven Strategy for Launching a Movie Studio
 
 ## 📌 Project Overview
