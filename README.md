@@ -83,7 +83,7 @@ Conducted using Python in [`index.ipynb`](./index.ipynb)
 ---
 
 ## 📂 Project Structure
-
+<pre>
 Group4-Phase2-Project/
 ├── 📁 zippedData/                   # Raw and cleaned data files
 │   ├── im.db.zip                    # Zipped SQLite database (im.db too large for GitHub)
@@ -108,7 +108,7 @@ Group4-Phase2-Project/
 │   ├─ cleaned_dataset_film_df.csv
 │   └─ im.db
 └── 📝 README.md                      # Project overview, structure, insights, and documentation
-
+</pre>
 
 ---
 
