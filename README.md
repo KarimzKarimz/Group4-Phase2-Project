@@ -47,7 +47,7 @@ Conducted using Python in [`index.ipynb`](./index.ipynb)
 
 ### 🎨 What are the most common genres produced over time
 
-- <img src="![alt text](image-2.png)" height="250" />
+- <img src="https://github.com/user-attachments/assets/e9aed896-b40b-4323-8f7f-90e163df88d7" height="250" />
 
 ### 🧩 Top 10 Movies by Domestic Gross Revenue
 
@@ -55,7 +55,7 @@ Conducted using Python in [`index.ipynb`](./index.ipynb)
 
 ### 📅 Average Box Office Revenue Over Time
 
-- <img src="![alt text](image-1.png)" height="250" />
+- <img src="https://github.com/user-attachments/assets/d2f8d657-9bf9-4112-97a5-bf7f580b293b" height="250" />
 
 ---
 
