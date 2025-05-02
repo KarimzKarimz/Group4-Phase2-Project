@@ -153,7 +153,6 @@ All visuals used in the executive summary were generated in `index.ipynb` and ex
 - Python: pandas, matplotlib, seaborn
 - SQLite & SQLAlchemy
 - Jupyter Notebook
-- Tableau (dashboard coming soon)
 - Git & GitHub
 
 ---
@@ -163,10 +162,10 @@ All visuals used in the executive summary were generated in `index.ipynb` and ex
 | Deliverable                | Status          |
 |----------------------------|------------------|
 | Cleaned Dataset            | ✅ Compressed    |
-| Jupyter Notebook (EDA)     | ✅ Complete      |
+| Jupyter Notebook           | ✅ Complete      |
 | Data Visualizations        | ✅ Embedded      |
-| Tableau Dashboard          | 🔄 In progress   |
-| Non-Technical PDF Report   | 🔄 In progress   |
+| Data Report (CRISP DM)     | ✅ Embedded      |
+| Non-Technical PDF Report   | ✅ Embedded      |
 
 ---
 
@@ -183,4 +182,3 @@ All visuals used in the executive summary were generated in `index.ipynb` and ex
 ## 📬 Contact
 
 > Questions? Reach out on [GitHub](https://github.com/KarimzKarimz) or email a team member.
-
